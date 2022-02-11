@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="快速记账"
-    />
-    <title>记账管家</title>
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="快速记账" />
+  <title>记账管家</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script>
+    if (! /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+      alert('建议使用移动端打开或者F12切换浏览模式')
+    }
+  </script>
+</body>
+
 </html>
